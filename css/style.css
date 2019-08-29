@@ -1,0 +1,490 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(212, 29, 29);
+}
+.container{
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 20px 80px 20px 80px;
+
+}
+.encabezado{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.logo-coto{
+    width: 90%;
+}
+.logo-coto img{
+    padding: 0px 0px 0px 45px;
+    width: 65%;
+}
+.fechas{
+    width: 15%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+.base{
+    background-color:#FFFFFF;
+    border: 2px solid #000000;
+    width: 90%;
+    border-radius: 10px;
+    height: 9rem;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.base .dia{
+    font-size: 22px;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    color: rgb(212, 29, 29);    
+    font-weight: 900;
+    font-family: 'Lato',sans-serif;
+}
+.base .fecha{
+    text-align: center;
+    font-size: 55px;
+    font-weight: 900;
+}
+.base .mes{
+    font-size: 22px;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    color: rgb(212, 29, 29);        
+    font-weight: 900;
+    font-family: 'Lato',sans-serif;    
+}
+ .circulo{
+    background-color: #000000;
+    width: 3.5%;
+    margin: 0 auto;
+    height: 3rem;
+    margin-left: 28rem;
+    border-radius: 50%;
+    position: absolute;
+}
+.circulo p{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.contenedor-texto{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.titulo{
+    width: 100%;
+    font-size: 51.86px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.titulo h2{
+    padding: 0px 0px 0px 20px;
+}
+.subtitulo{
+    width: 100%;
+    font-size: 32px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.subtitulo h3{
+    padding: 0px 0px 0px 60px;
+}
+.contenido-principal{
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+.imagen{
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px 0px 10px 30px;
+
+}
+.imagen img{
+    width: 100%;
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 0.63rem;
+    margin-bottom: 0.85rem;
+    align-content: flex-start;
+    background-color: #FFFFFF;
+}
+.ofertaUno{
+    width: 50%;
+    text-align: center;
+}
+.ofertaUno img{
+    width: 60%;
+    height: 9rem;
+    padding: 0px 20px 20px 0px;
+}
+
+.ofertaDos{
+    width: 50%;
+    text-align: center;
+}
+.ofertaDos img{
+    width: 60%;
+    height: 9rem;
+    padding: 0px 20px 20px 0px;
+}
+.ofertaTres{
+    width: 50%;
+    text-align: center;
+}
+.ofertaTres img{
+    width: 60%;
+    height: 10rem;
+    padding: -5px 20px 20px 0px;
+}
+.ofertaCuatro{
+    width: 50%;
+    text-align: center;
+}
+.ofertaCuatro img{
+    width: 60%;
+    height: 10rem;
+    padding: 0px 20px 0px 20px;
+}
+.ofertaCinco{
+    width: 50%;
+    text-align: center;
+}
+.ofertaCinco img{
+    width: 60%;
+    height: 9rem;
+    padding: 20px 20px 27px 20px;
+}
+
+.ofertaSeis{
+    width: 50%;
+    text-align: center;
+}
+.ofertaSeis img{
+    width: 60%;
+    height: 9rem;
+    padding: 20px 20px 30px 20px;
+}
+.ofertaSiete{
+    width: 50%;
+    text-align: center;
+}
+.ofertaSiete img{
+    width: 60%;
+    height: 9rem;
+    padding: 15px 20px 40px 20px;
+}
+.ofertaOcho{
+    width: 50%;
+    text-align: center;
+} 
+.ofertaOcho img{
+    width: 60%;
+    height: 9rem;
+    padding: 20px 20px 40px 20px;
+}
+
+    .contenido-oferta{
+        display: flex;
+        flex-flow: column nowrap;
+        width: 100%;
+        margin-left: 3rem;
+        margin-top: -3rem;
+    }
+    .precio{
+        display: flex;
+        position: absolute;
+        flex-flow: column nowrap;
+        background-color: yellow;
+        height: 2rem;
+        width: 7%;
+        margin-top: -2rem;
+        font-size: 25px;
+        margin-left: 1rem;
+        border: 2px solid #000000;
+    }
+    .precio p{
+        padding: 2px 0px 0px 15px;
+        position: absolute;
+        text-align: right;
+        font-weight: 900;
+    }
+    .precio-decimales{
+        height: 1.5rem;
+        margin: 0 auto;
+        width: 15%;
+        font-size: 15px;
+    }
+    .precio-decimales p{
+        font-weight: 900;
+    }
+    .precio-anterior{
+        width: 70%;
+        padding: 6px 0px 0px 0px;
+        background-color: #FFFFFF;
+        color: red;
+        font-size: 13px;
+        font-weight: 800;
+    }
+    .stock{
+        width: 62%;
+        background-color: #FFFFFF;
+        font-size: 13px;
+        font-weight: 100;
+    }
+    .cantidad{
+        font-size: 18px;
+        margin-top: -0.8rem;
+        text-align: left;
+    }
+    .cantidad p{
+        width: 108%;
+        text-align: center;
+    }
+    #precio{
+        padding: 0px 0px 0px 20px;
+    }
+    #cantidad{
+        padding: 0px 0px 0px 10px;
+    }
+.footer{
+    padding: 8px 2px 8px 35px;
+    font-size: 14.2px;
+    width: 100%;
+    color: white;
+    font-weight: 200;
+}
+
+@media screen and (max-width: 998px){
+    .container{
+        display: flex;
+        flex-flow: column nowrap;
+        padding: 0px 0px 0px 0px;
+    }
+    .logo-coto{
+        width: 100%;
+    }
+    .logo-coto img{
+        width: 70%;
+    }
+    .fechas{
+        width: 40%;
+    }
+    .base{
+        width: 90%;
+        height: 7rem;
+    }
+    .base .dia{
+        font-size: 13px;
+    }
+    .base .fecha{
+        font-size: 40px;
+    }
+    .base .mes{
+        font-size: 13px;
+    }
+     .circulo{
+        width: 8%;
+        height: 2rem;
+        margin-left: 6rem;
+        border-radius: 50%;
+        position: absolute;
+    }
+    .circulo p{
+        font-size: 22px;
+    }
+    
+    .contenedor-texto{
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .titulo{
+        width: 100%;
+        font-size: 15px;
+    }
+    .subtitulo{
+        width: 100%;
+        font-size: 9px;
+    }
+    .subtitulo h3{
+        padding: 0px 0px 0px 30px;
+    }
+    .contenido-principal{
+        display: flex;
+        flex-flow: row nowrap;
+    
+    }
+
+    .imagen img{
+        width: 100%;
+        height: 25rem;
+    }
+    
+    .ofertaUno{
+        width: 50%;
+        text-align: center;
+    }
+    .ofertaUno img{
+        width: 50%;
+        height: 2rem;
+        padding: 0px 20px 20px 0px;
+    }
+    
+    .ofertaDos{
+        width: 50%;
+        text-align: center;
+    }
+    .ofertaDos img{
+        width: 50%;
+        height: 2rem;
+        padding: 0px 20px 20px 0px;
+    }
+    .ofertaTres{
+        width: 50%;
+        text-align: center;
+    }
+    .ofertaTres img{
+        width: 50%;
+        height: 2rem;
+        padding: -5px 20px 20px 0px;
+    }
+    .ofertaCuatro{
+        width: 50%;
+        text-align: center;
+    }
+    .ofertaCuatro img{
+        width: 50%;
+        height: 2rem;
+        padding: 0px 20px 0px 20px;
+    }
+    .ofertaCinco{
+        width: 50%;
+        text-align: center;
+    }
+    .ofertaCinco img{
+        width: 50%;
+        height: 2rem;
+        padding: 20px 20px 27px 20px;
+    }
+    
+    .ofertaSeis{
+        width: 50%;
+        text-align: center;
+    }
+    .ofertaSeis img{
+        width: 50%;
+        height: 2rem;
+        padding: 20px 20px 30px 20px;
+    }
+    .ofertaSiete{
+        width: 50%;
+        text-align: center;
+    }
+    .ofertaSiete img{
+        width: 50%;
+        height: 2rem;
+        padding: 15px 20px 40px 20px;
+    }
+    .ofertaOcho{
+        width: 50%;
+        text-align: center;
+    } 
+    .ofertaOcho img{
+        width: 50%;
+        height: 2rem;
+        padding: 20px 20px 40px 20px;
+    }
+    
+        .contenido-oferta{
+            display: flex;
+            flex-flow: column nowrap;
+            width: 100%;
+            margin-left: 3rem;
+            margin-top: -3rem;
+        }
+        .precio{
+            display: flex;
+            position: absolute;
+            flex-flow: column nowrap;
+            background-color: yellow;
+            height: 2rem;
+            width: 7%;
+            margin-top: -2rem;
+            font-size: 25px;
+            margin-left: 1rem;
+            border: 2px solid #000000;
+        }
+        .precio p{
+            padding: 2px 0px 0px 15px;
+            position: absolute;
+            text-align: right;
+            font-weight: 900;
+        }
+        .precio-decimales{
+            height: 1.5rem;
+            margin: 0 auto;
+            width: 15%;
+            font-size: 15px;
+        }
+        .precio-decimales p{
+            font-weight: 900;
+        }
+        .precio-anterior{
+            width: 70%;
+            padding: 6px 0px 0px 0px;
+            background-color: #FFFFFF;
+            color: red;
+            font-size: 13px;
+            font-weight: 800;
+        }
+        .stock{
+            width: 62%;
+            background-color: #FFFFFF;
+            font-size: 13px;
+            font-weight: 100;
+        }
+        .cantidad{
+            font-size: 18px;
+            margin-top: -0.8rem;
+            text-align: left;
+        }
+        .cantidad p{
+            width: 108%;
+            text-align: center;
+        }
+        #precio{
+            padding: 0px 0px 0px 20px;
+        }
+        #cantidad{
+            padding: 0px 0px 0px 10px;
+        }
+    .footer{
+        padding: 8px 2px 8px 35px;
+        font-size: 14.2px;
+        width: 100%;
+        color: white;
+        font-weight: 200;
+    }
+    
+}
